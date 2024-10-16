@@ -31,7 +31,3 @@ Thumbs.db
 *.war
 *.ear
 
-# Maven Wrapper
-.mvn/
-mvnw
-mvnw.cmd
