@@ -2,8 +2,12 @@ package com.atyeti.myapp;
 
 public class CollectionExplanation {
     /*
-    - ArrayList: A resizable array that allows fast random access. Best used when frequent lookups are needed.
-    - LinkedList: A doubly linked list that is better for frequent insertions/deletions.
-    - HashMap: Stores key-value pairs, providing fast lookup by keys.
+        Write a Java program to store and display the names of 5 students using a
+        'HashSet'. The names should be stored in sorted order without duplicates.
+     */
+    /*
+    - ArrayList: 
+    - LinkedList: 
+    - HashMap: 
     */
 }
