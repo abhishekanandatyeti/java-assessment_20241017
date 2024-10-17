@@ -9,6 +9,18 @@ public class DebugExample {
     }
 
     public void printNumbersSafely() {
-
+        int[] numbers = {1, 2, 3, 4, 5};
+        for (int i = 0; i <= numbers.length; i++) {
+            System.out.println(numbers[i]);
+        }
     }
 }
+
+/*
+  the output of the corrected code is
+  1
+  2
+  3
+  4
+  5
+*/

@@ -15,11 +15,19 @@ public class DivisionHandling {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        try{
         System.out.println("Enter two integers:");
         int num1 = scanner.nextInt();
         int num2 = scanner.nextInt();
+        }catch(ArithmeticException e){
+            System.out.println("cannot devide by zero")
+        }
+        catch(InputMismatchException e){
+            System.out.println("please enter valid number or input")
+        }
         DivisionHandling dh = new DivisionHandling();
         System.out.println("Result: " + dh.divideNumbers(num1, num2));
-
+        
     }
+    
 }
