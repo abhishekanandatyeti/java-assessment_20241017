@@ -6,8 +6,15 @@ public class CollectionExplanation {
         'HashSet'. The names should be stored in sorted order without duplicates.
      */
     /*
-    - ArrayList: 
-    - LinkedList: 
-    - HashMap: 
+    - ArrayList:
+    arraylist is a resizable array which offers dynamic storage
+    which helps in fast insertion and deletion
+
+
+    - LinkedList:
+    linkedlist is a data structure having nodes to store elements
+
+    - HashMap:
+    hashmap is a collection that stores data in key-value pair it also heps in faster insertion and deletion of elements
     */
 }
