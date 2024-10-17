@@ -10,5 +10,4 @@ public class DebugExample {
 
     public void printNumbersSafely() {
 
-    }
 }
