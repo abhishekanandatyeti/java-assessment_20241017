@@ -11,6 +11,19 @@ public class OptimizedSumOfSquares {
     }
 
     public int improvedCalculateSum(int n) {
-        return 0;
+        // Using the mathematical formula for sum of squares
+        return n * (n + 1) * (2 * n + 1) / 6;
     }
+
+    public static void main(String[] args) {
+        // Test with n = 10
+        System.out.println(improvedCalculateSum(10));
+        //Output: 385
+    }
+
+    /*
+    Time Complexity:
+    Loop-based approach: O(n) — It loops from 1 to n, performing n additions.
+    Formula-based approach: O(1) — The sum is calculated in constant time, regardless of the size of n.
+    */
 }

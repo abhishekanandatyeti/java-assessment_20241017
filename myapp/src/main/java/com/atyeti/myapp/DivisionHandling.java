@@ -1,5 +1,5 @@
 package com.atyeti.myapp;
-
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
@@ -8,9 +8,21 @@ first by the second. Implement exception handling to manage 'ArithmeticException
 zero) and 'InputMismatchException' (invalid input). Display a custom error message in each
 case.
  */
+
+
 public class DivisionHandling {
     public double divideNumbers(int a, int b) {
-        return 0;
+        try
+		{
+			return a/b;
+		}
+		catch(ArithmeticException e)
+		{
+			return "Error:"+e.getMessage();
+		}
+		catch (InputMismatchException f) {
+			return "Error:"+f.getMessage();  
+        }  
     }
 
     public static void main(String[] args) {
