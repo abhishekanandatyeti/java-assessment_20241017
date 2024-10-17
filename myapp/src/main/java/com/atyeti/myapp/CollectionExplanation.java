@@ -6,8 +6,18 @@ public class CollectionExplanation {
         'HashSet'. The names should be stored in sorted order without duplicates.
      */
     /*
-    - ArrayList: 
+    - ArrayList: it is used to store the data according to index ,it accepts dulplicates,
+    arraylist is best for fetching the data .
     - LinkedList: 
-    - HashMap: 
+    it is used for searching of data.
+    - HashMap: Hashmap is based on the Key , and Value in which key must be unique and value may be duplicate.
+    is is used for storing the group of object.
+    
     */
+
+   public static void main(String args[])
+   {
+    StudentSet s=new StudentSet();
+    s.getStudentNames();
+   }
 }
