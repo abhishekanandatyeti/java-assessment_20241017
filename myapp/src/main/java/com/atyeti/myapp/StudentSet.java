@@ -5,13 +5,19 @@ import java.util.TreeSet;
 
 public class StudentSet {
     public Set<String> getStudentNames() {
-        /*
-        students.add("Alice");
-        students.add("Bob");
-        students.add("Charlie");
-        students.add("David");
-        students.add("Eve");
-        */
+    Set<String> studentNames = new HashSet<>();
+        studentNames.add("Sumit");
+        studentNames.add("Shubham");
+        studentNames.add("pratik");
+        studentNames.add("Pranav");
+        studentNames.add("Rohit");
+        studentNames.add("Sumit");
+        TreeSet<String> StudentSort = new TreeSet<>(studentNames);
+        System.out.println("Sorted list of student names:");
+        for (String name : StudentSort) {
+            System.out.println(name);
+        }
+}
         return null;
     }
-}
+

@@ -11,6 +11,10 @@ public class OptimizedSumOfSquares {
     }
 
     public int improvedCalculateSum(int n) {
-        return 0;
+      int sum=0;
+       for (int i = 1; i <= n; i++) {
+            sum +=n(n+1)(2n+1) / 6
+        }
+        return sum;
     }
 }
