@@ -11,6 +11,11 @@ public class OptimizedSumOfSquares {
     }
 
     public int improvedCalculateSum(int n) {
-        return 0;
+      int sum=0;
+       for(int i=1;i<=n;i++)
+	        {
+	            sum+=Math.pow(i, 2);  //By using the Pow predefined Math Class Pow function 
+	        }
+        return sum;
     }
 }

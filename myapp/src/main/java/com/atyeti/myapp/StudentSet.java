@@ -5,13 +5,13 @@ import java.util.TreeSet;
 
 public class StudentSet {
     public Set<String> getStudentNames() {
-        /*
+        HashSet<String> students = new HashSet<>();
         students.add("Alice");
         students.add("Bob");
         students.add("Charlie");
         students.add("David");
         students.add("Eve");
-        */
-        return null;
+        
+        return students;
     }
 }
