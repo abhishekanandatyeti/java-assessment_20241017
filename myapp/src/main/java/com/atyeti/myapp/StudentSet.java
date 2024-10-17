@@ -4,14 +4,16 @@ import java.util.Set;
 import java.util.TreeSet;
 
 public class StudentSet {
-    public Set<String> getStudentNames() {
-        /*
-        students.add("Alice");
-        students.add("Bob");
-        students.add("Charlie");
-        students.add("David");
-        students.add("Eve");
-        */
-        return null;
+    Set<String> set = new TreeSet<String>();
+
+        set.add("Rohit");
+        set.add("Akshay");
+        set.add("Swapnil");
+        set.add("Ashutosh");
+        set.add("vishal");
+
+        for(String st:set){
+        System.out.println(st);
     }
+
 }
