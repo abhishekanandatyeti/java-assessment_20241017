@@ -11,6 +11,7 @@ public class OptimizedSumOfSquares {
     }
 
     public int improvedCalculateSum(int n) {
-        return 0;
+
+        return (n*(n+1)*((2*n)+1))/6;
     }
 }

@@ -10,6 +10,18 @@ case.
  */
 public class DivisionHandling {
     public double divideNumbers(int a, int b) {
+        try{
+
+            double ans = a/b;
+            return ans;
+
+        }catch(Exception e){
+            if(e.getMessage() == "ArithmeticException"){
+                System.out.println("Invalid Input");
+            } else if (e.getMessage() == "InputMismatchException") {
+                System.out.println("Please Enter the Correct Input");
+            }
+        }
         return 0;
     }
 
