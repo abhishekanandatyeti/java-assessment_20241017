@@ -20,6 +20,15 @@ public class DivisionHandling {
         int num2 = scanner.nextInt();
         DivisionHandling dh = new DivisionHandling();
         System.out.println("Result: " + dh.divideNumbers(num1, num2));
+    }
+    catch(ArithmeticException e)
+    {
+        System.out.println("division by zero");
+    }
+    catch(InputMismatchException e)
+    {
+        System.out.println("invalid input");
+    }
 
     }
-}
+
