@@ -10,7 +10,17 @@ case.
  */
 public class DivisionHandling {
     public double divideNumbers(int a, int b) {
-        return 0;
+        int sum=0;
+        try{
+
+            sum=a+b;// if the input is divisible by zero it through exception
+        }
+        catch(ArithmeticException e){
+            System.out.println(e) //print exception
+        }
+        catch(InputMismatchException e)
+        System.out.println(e);// print exception e
+    }
     }
 
     public static void main(String[] args) {
